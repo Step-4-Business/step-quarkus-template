@@ -46,85 +46,105 @@
                       "valueType": "plain"
                     },
                     {
-                        "name": "SQLSERVER_DB_URL",
-                        "value": "{{SQLSERVER_DB_URL}}",
-                        "valueType": "plain"
-                      },
-                      {
-                        "name": "SQLSERVER_DB_PASSWORD",
-                        "value": "{{SQLSERVER_DB_PASSWORD}}",
-                        "valueType": "plain"
-                      },
-                      {
-                        "name": "SQLSERVER_DB_USER",
-                        "value": "{{SQLSERVER_DB_USER}}",
-                        "valueType": "plain"
-                      },
-                      {
-                        "name": "AUTH0_DOMAIN",
-                        "value": "{{AUTH0_DOMAIN}}",
-                        "valueType": "plain"
-                      },
-                      {
-                        "name": "AUTH0_CLIENT_ID",
-                        "value": "{{AUTH0_CLIENT_ID}}",
-                        "valueType": "plain"
-                      },
-                      {
-                        "name": "AUTH0_CLIENT_SECRET",
-                        "value": "{{AUTH0_CLIENT_SECRET}}",
-                        "valueType": "plain"
-                      },
-                      {
-                        "name": "AUTH0_BASE_URL",
-                        "value": "{{AUTH0_BASE_URL}}",
-                        "valueType": "plain"
-                      },
-                      {
-                        "name": "AUTH0_TOKEN_URL",
-                        "value": "{{AUTH0_TOKEN_URL}}",
-                        "valueType": "plain"
-                      },
-                      {
-                        "name": "AUTH0_AUDIENCE",
-                        "value": "{{AUTH0_AUDIENCE}}",
-                        "valueType": "plain"
-                      },
-                      {
-                        "name": "ENVIRONMENT",
-                        "value": "{{ENVIRONMENT}}",
-                        "valueType": "plain"
-                      },
-                      {
-                        "name": "COUNTRY",
-                        "value": "{{COUNTRY}}",
-                        "valueType": "plain"
-                      },
-                      {
-                        "name": "AZURE_APPLICATION_CLIENT_ID",
-                        "value": "{{AZURE_SERVICE_BUS_APP_ID}}",
-                        "valueType": "plain"
-                      },
-                      {
-                        "name": "AZURE_APPLICATION_TENANT_ID",
-                        "value": "{{AZURE_TENANT_ID}}",
-                        "valueType": "plain"
-                      },
-                      {
-                        "name": "AZURE_APPLICATION_CLIENT_SECRET",
-                        "value": "{{AZURE_SERVICE_BUS_APP_SECRET}}",
-                        "valueType": "plain"
-                      },
-                      {
-                        "name": "QUEUE_NAMESPACE",
-                        "value": "{{QUEUE_NAMESPACE}}",
-                        "valueType": "plain"
-                      },
-                      {
-                        "name": "QUEUE_EVENTS_TOPIC",
-                        "value": "{{QUEUE_EVENTS_TOPIC}}",
-                        "valueType": "plain"
-                      }
+                      "name": "AUTH0_DOMAIN",
+                      "value": "{{AUTH0_DOMAIN}}",
+                      "valueType": "plain"
+                    },
+                    {
+                      "name": "AUTH0_CLIENTID",
+                      "value": "{{AUTH0_CLIENT_ID}}",
+                      "valueType": "plain"
+                    },
+                    {
+                      "name": "AUTH0_CLIENTSECRET",
+                      "value": "{{AUTH0_CLIENT_SECRET}}",
+                      "valueType": "plain"
+                    },
+                    {
+                      "name": "AUTH0_AUDIENCE",
+                      "value": "{{AUTH0_AUDIENCE}}",
+                      "valueType": "plain"
+                    },
+                    {
+                      "name": "QUARKUS_DATASOURCE_JDBC_URL",
+                      "value": "{{SQLSERVER_DB_URL}}",
+                      "valueType": "plain"
+                    },
+                    {
+                      "name": "QUARKUS_DATASOURCE_USERNAME",
+                      "value": "{{SQLSERVER_DB_USER}}",
+                      "valueType": "plain"
+                    },
+                    {
+                      "name": "QUARKUS_DATASOURCE_PASSWORD",
+                      "value": "{{SQLSERVER_DB_PASSWORD}}",
+                      "valueType": "plain"
+                    },
+                    {
+                      "name": "QUARKUS_HIBERNATE_ORM_DATABASE_DEFAULT_SCHEMA",
+                      "value": "{{SQLSERVER_DB_SCHEMA}}",
+                      "valueType": "plain"
+                    },
+                    {
+                      "name": "QUARKUS_REDIS_HOSTS",
+                      "value": "{{REDIS_HOSTS}}",
+                      "valueType": "plain"
+                    },
+                    {
+                      "name": "QUARKUS_REDIS_PASSWORD",
+                      "value": "{{REDIS_PASSWORD}}",
+                      "valueType": "plain"
+                    },
+                    {
+                      "name": "QUARKUS_MONGODB_CONNECTION_STRING",
+                      "value": "{{MONGODB_GENERIC_URL}}",
+                      "valueType": "plain"
+                    },
+                    {
+                      "name": "QUARKUS_MONGODB_DATABASE",
+                      "value": "{{MONGODB_DATABASE}}",
+                      "valueType": "plain"
+                    },
+                    {
+                      "name": "QUEUE_NAMESPACE",
+                      "value": "{{QUEUE_NAMESPACE}}",
+                      "valueType": "plain"
+                    },
+                    {
+                      "name": "QUEUE_EVENTS_TOPIC",
+                      "value": "{{QUEUE_EVENTS_TOPIC}}",
+                      "valueType": "plain"
+                    },
+                    {
+                      "name": "QUEUE_SEND_TO_SPECIFIC",
+                      "value": "false",
+                      "valueType": "plain"
+                    },
+                    {
+                      "name": "AZURE_APPLICATION_CLIENT_ID",
+                      "value": "{{AZURE_SERVICE_BUS_APP_ID}}",
+                      "valueType": "plain"
+                    },
+                    {
+                      "name": "AZURE_APPLICATION_TENANT_ID",
+                      "value": "{{AZURE_TENANT_ID}}",
+                      "valueType": "plain"
+                    },
+                    {
+                      "name": "AZURE_APPLICATION_CLIENT_SECRET",
+                      "value": "{{AZURE_SERVICE_BUS_APP_SECRET}}",
+                      "valueType": "plain"
+                    },
+                    {
+                      "name": "ENVIRONMENT",
+                      "value": "{{ENVIRONMENT}}",
+                      "valueType": "plain"
+                    },
+                    {
+                      "name": "COUNTRY",
+                      "value": "{{COUNTRY}}",
+                      "valueType": "plain"
+                    }
                 ],
                 "defaultProbes": {
                     "liveness": {
