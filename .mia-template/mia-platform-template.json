@@ -2,7 +2,6 @@
     "name": "STEP - Quarkus Template",
     "description": "Quarkus Template for STEP applications",
     "type": "template",
-    "releaseStage": "stable",
     "tenantId": "step",
     "itemId": "step-quarkus-template",
     "repositoryUrl": "https://github.com/Step-4-Business/step-quarkus-template/",
