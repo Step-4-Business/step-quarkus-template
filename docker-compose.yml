@@ -1,0 +1,5 @@
+version: '3.6'
+
+services:
+  my-simple-service:
+    build: ./
