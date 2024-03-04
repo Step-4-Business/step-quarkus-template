@@ -9,9 +9,6 @@
     "label": "Quarkus Template",
     "categoryId": "kotlin",
     "suportedBy": "Step4Business",
-    "visibility":{
-        "allTenants": true
-    },
     "documentation": {
         "type": "markdown",
         "url": "https://raw.githubusercontent.com/Step-4-Business/step-quarkus-template//main/README.md"
@@ -20,7 +17,7 @@
         "localPath": "./image.png"
     },
     "supportedByImage": {
-        "localPath": "./supportedByImage.jpeg"
+        "localPath": "./supportedByImage.png"
     },
     "resources":{
         "services":{
